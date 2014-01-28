@@ -1,12 +1,69 @@
-/*
-*
-* Lemonade v1.1
-* Copyright 2013, Joe Richardson
-* lemonade.im
-* Free to use under the MIT license.
-* http://www.opensource.org/licenses/mit-license.php
-*
-*/
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+    display: block;
+}
+html {
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+input:focus, textarea:focus {
+    outline: none;
+}
+label, select, button, input[type="submit"], input[type="radio"], input[type="checkbox"] input[type="button"] {
+    cursor: pointer;
+}
+a, a:visited, a:active {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+* {
+    font-size:100%;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body {
+    font-family:"Open Sans" Arial;
+    font-size: 20px;
+}
+
+.wrap {
+  width:80%;
+  margin:0 auto;
+}
+
+.dark {
+  background:#f4f4f4;
+  border-top:1px solid rgba(0,0,0,.1);
+  border-bottom:1px solid rgba(0,0,0,.1);
+}
+
+.head {
+  text-align:center;
+  padding:40px;
+  padding-bottom:10px;
+  font-size:50px;
+  font-weight:800;
+  color:#1c1c1c;
+}
+
+p {
+  text-align:center;
+  padding-bottom:60px;
+}
+
+footer {
+  text-align:center;
+  padding:50px;
+}
+
+a,a:visited {
+  color:#000;
+  text-decoration:underline;
+}
 
 *,
 *:after,
@@ -118,72 +175,6 @@
     width: 50%;
   }
 }
-article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
-    display: block;
-}
-html {
-    font-size: 100%;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-}
-input:focus, textarea:focus {
-    outline: none;
-}
-label, select, button, input[type="submit"], input[type="radio"], input[type="checkbox"] input[type="button"] {
-    cursor: pointer;
-}
-a, a:visited, a:active {
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: none;
-}
-* {
-    font-size:100%;
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-}
-body {
-    font-family:"Open Sans" Arial;
-    font-size: 20px;
-}
-
-.wrap {
-  width:80%;
-  margin:0 auto;
-}
-
-.dark {
-  background:#f4f4f4;
-  border-top:1px solid rgba(0,0,0,.1);
-  border-bottom:1px solid rgba(0,0,0,.1);
-}
-
-.head {
-  text-align:center;
-  padding:40px;
-  padding-bottom:10px;
-  font-size:50px;
-  font-weight:800;
-  color:#1c1c1c;
-}
-
-p {
-  text-align:center;
-  padding-bottom:60px;
-}
-
-footer {
-  text-align:center;
-  padding:50px;
-}
-
-a,a:visited {
-  color:#000;
-  text-decoration:underline;
-}
 
 /* Landscape mobile & down
 ===============================*/
@@ -193,19 +184,19 @@ a,a:visited {
     margin:0 auto;
     padding-bottom:35px;
   }
-  
+
   h1 {
     margin-bottom:-5px;
   }
-  
+
   .code {
     padding-top:-0px!important;
   }
-  
+
   .wrap {
     width:100%;
   }
-  
+
   .bit-2 {
     display:block;
     width:100%;
@@ -221,15 +212,15 @@ a,a:visited {
     margin:0px auto;
     padding-bottom:35px;
   }
-  
+
   h1 {
     margin-bottom:-5px;
   }
-  
+
   .code {
     padding-top:-0px!important;
   }
-  
+
   .wrap {
     width:90%;
   }
@@ -239,4 +230,4 @@ a,a:visited {
 ===============================*/
 @media (min-width: 801px) and (max-width: 1100px) {
 
-}   
+}
